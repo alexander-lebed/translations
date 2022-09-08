@@ -1,0 +1,27 @@
+{
+  "profile": {
+    "connect-to": "Anslut till {{name}}",
+    "connected-status": "Du är ansluten",
+    "current-password": "Nuvarande lösenord",
+    "disconnect": "Koppla från",
+    "disconnect-confirm-text": "Är du säker på att du vill koppla bort {{name}}? Du kommer inte längre att kunna använda denna integration.",
+    "disconnect-confirm-title": "Kopplar bort {{name}}",
+    "email-changed": "Ett e-postmeddelande har skickats till dig med en länk för att verifiera din nya e-postadress",
+    "repeat-new-password": "Upprepa nytt lösenord",
+    "services": {
+      "data-studio-subtitle": "Anslut till din data",
+      "facebook-description": "Låter dig logga in via ditt Facebook-konto, ett lösenord mindre att hålla reda på.",
+      "facebook-subtitle": "Anslut och logga in",
+      "google-description": "Låter dig logga in via ditt Google-konto, ett lösenord mindre att hålla reda på.",
+      "google-subtitle": "Anslut och logga in",
+      "search-console-description": "Importera nyckelord och annan data direkt från Google Search Console till Wincher.",
+      "search-console-subtitle": "Anslut och importera nyckelord"
+    },
+    "your-password": "Ditt lösenord",
+    "your-profile-information": "Din profilinformation",
+    "your-services": "Dina anslutna tjänster"
+  },
+  "subscription-canceled-callout": "Din prenumeration är uppsagd och kommer att löpa ut den <1>{{expiryDate}}</1> . Ändrade dig? <2>Klicka här för att återaktivera den.</2>",
+  "subscription-expired-callout": "Ditt abonnemang har löpt ut och du har inte längre tillgång till dina uppgifter. <2>Klicka här för att återaktivera den.</2>",
+  "subtitle": "Konto underrubrik"
+}

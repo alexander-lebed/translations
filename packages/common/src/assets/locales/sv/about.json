@@ -1,2 +1,20 @@
 {
+  "jumbo-heading": "Vår produkt är en återspegling av vår\nteam & vision",
+  "jumbo-subheading": "Vi är ett litet men ändå dedikerat team som har arbetat tillsammans i flera år för att bygga ett verktyg som vi verkligen brinner för. Vi skulle vilja berätta lite mer om oss.",
+  "title": "Om oss",
+  "work-at-wincher": {
+    "heading": "Jobbar på Wincher",
+    "item1": {
+      "heading": "Arbeta var som helst",
+      "subheading": "Vi är baserade i Sveriges tekniska huvudstad,\nmen det betyder inte att du måste vara det.",
+      "text": "Det var så Wincher byggdes. Du behöver inte spendera timmar på att pendla. Arbeta hemifrån, i en samarbetsplats som du väljer eller gå med i huvudkontoret i Stockholm."
+    },
+    "item2": {
+      "heading": "Inget behov av att älska morgnar",
+      "subheading": "Tillsammans med ditt team kan du fritt planera dina arbetstider.",
+      "text": "Ingen mikrohantering hos Wincher. Du planerar dina veckor tillsammans med ditt team och arbetar under de timmar på dygnet du känner dig som mest pigg."
+    },
+    "preheading": "Hur det är att",
+    "quote": "Jag pratar med mitt team dagligen från mitt hemmakontor. Jag spenderar mindre tid på att pendla och har mer tid över för viktiga saker i livet, som min familj"
+  }
 }
