@@ -1,4 +1,5 @@
 {
+  "title": "Account",
   "subscription-canceled-callout": "Your subscription is cancelled and will expire on <1>{{expiryDate}}</1>. Changed your mind? <2>Click here to re-activate it.</2>",
   "subscription-expired-callout": "Your subscription has expired and you no longer have access to your data. <2>Click here to re-activate it.</2>",
 
