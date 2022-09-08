@@ -6,7 +6,7 @@ phrase:
     sources:
     - file: packages/common/src/assets/locales/en/<tag>.json
       params:
-        locale_id: 9ed252812ef2252724d54cb40653f8a0
+        locale_id: ecc8225c3b9bfe6da9ce41506cc2f10f
         tags: about, account
   pull:
     targets:
