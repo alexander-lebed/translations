@@ -1,0 +1,27 @@
+{
+  "subscription-canceled-callout": "Din prenumeration har sagts upp och kommer att avslutas <1>{{expiryDate}}</1>. Har du ångrat dig? <2>Klicka här för att återaktivera.</2>",
+  "subscription-expired-callout": "Din prenumeration har gått ut och du har inte längre tillgång till dina data. <2>Klicka här för att återaktivera.</2>",
+
+  "profile": {
+    "your-profile-information": "Din profilinformation",
+    "email-changed": "Ett e-postmeddelande har skickats till dig med en länk för att verifiera din nya e-postadress",
+    "your-password": "Ditt lösenord",
+    "current-password": "Nuvarande lösenord",
+    "repeat-new-password": "Upprepa det nya lösenordet",
+    "your-services": "Dina anslutna tjänster",
+    "connected-status": "Du är ansluten",
+    "connect-to": "Anslut till {{name}}",
+    "disconnect": "Slå av",
+    "disconnect-confirm-title": "Slå av {{name}}",
+    "disconnect-confirm-text": "Är du säker på att du vill slå av {{name}}? Du kommer inte längre att kunna använda denna integration.",
+    "services": {
+      "facebook-subtitle": "Anslut & logga in",
+      "facebook-description": "Låter dig logga in via ditt Facebook-konto – ett mindre lösenord att hålla reda på.",
+      "google-subtitle": "Anslut & logga in",
+      "google-description": "Låter dig logga in via ditt Google-konto – ett mindre lösenord att hålla reda på.",
+      "search-console-subtitle": "Anslut & importera sökord",
+      "search-console-description": "Importera sökord och annan data direkt från Google Search Console till Wincher.",
+      "data-studio-subtitle": "Anslut till dina data"
+    }
+  }
+}

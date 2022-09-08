@@ -4,17 +4,16 @@ phrase:
   file_format: nested_json
   push:
     sources:
-    - file: packages/common/src/assets/locales/en/about.json
+    - file: packages/common/src/assets/locales/en/<tag>.json
       params:
-        file_format: nested_json
-        locale_id: f60c4dc2fb780836934bfb500c391c63
+        locale_id: ed23519b2403fe8d69c53c3d786d3332
   pull:
     targets:
-    - file: packages/common/src/assets/locales/sv/about.json
+    # about
+    - file: packages/common/src/assets/locales/<locale_name>/about.json
       params:
-        file_format: nested_json
-        locale_id: cefca43961123ce372d0692bada58592
-    - file: packages/common/src/assets/locales/ru/about.json
+        tags: about
+    # account
+    - file: packages/common/src/assets/locales/<locale_name>/account.json
       params:
-        file_format: nested_json
-        locale_id: b95687de8a8770be40aa49fb69c5ca23
+        tags: account

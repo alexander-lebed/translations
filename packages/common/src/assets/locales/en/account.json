@@ -1,0 +1,29 @@
+{
+  "subscription-canceled-callout": "Your subscription is cancelled and will expire on <1>{{expiryDate}}</1>. Changed your mind? <2>Click here to re-activate it.</2>",
+  "subscription-expired-callout": "Your subscription has expired and you no longer have access to your data. <2>Click here to re-activate it.</2>",
+
+  "profile": {
+    "your-profile-information": "Your profile information",
+    "email-changed": "An e-mail has been sent to you with a link to verify your new e-mail address",
+
+    "your-password": "Your password",
+    "current-password": "Current password",
+    "repeat-new-password": "Repeat new password",
+
+    "your-services": "Your connected services",
+    "connected-status": "You’re connected",
+    "connect-to": "Connect to {{name}}",
+    "disconnect": "Disconnect",
+    "disconnect-confirm-title": "Disconnecting {{name}}",
+    "disconnect-confirm-text": "Are you sure that you want to disconnect {{name}}? You will no longer be able to use this integration.",
+    "services": {
+      "facebook-subtitle": "Connect & log in",
+      "facebook-description": "Allows you to log in through your Facebook account, one less password to keep track of.",
+      "google-subtitle": "Connect & log in",
+      "google-description": "Allows you to log in through your Google account, one less password to keep track of.",
+      "search-console-subtitle": "Connect & import keywords",
+      "search-console-description": "Import keywords and other data directly from Google Search Console to Wincher.",
+      "data-studio-subtitle": "Connect to your data"
+    }
+  }
+}
