@@ -14,4 +14,8 @@ phrase:
     - file: packages/common/src/assets/locales/sv/about.json
       params:
         file_format: nested_json
-        locale_id: c9358b73f53d11c54803daeaac1674ae
+        locale_id: 0513981fd258083b3fcde6a2bd5d7c9a
+    - file: packages/common/src/assets/locales/ru/about.json
+        params:
+          file_format: nested_json
+          locale_id: e080a869bc511a31a1e674a15e718b1b
