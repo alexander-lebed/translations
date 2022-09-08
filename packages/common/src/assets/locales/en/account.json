@@ -1,4 +1,7 @@
 {
+  "account": {
+    "title": "Account title"
+  },
   "profile": {
     "connect-to": "Connect to {{name}}",
     "connected-status": "You’re connected",
