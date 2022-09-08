@@ -16,6 +16,6 @@ phrase:
         file_format: nested_json
         locale_id: cefca43961123ce372d0692bada58592
     - file: packages/common/src/assets/locales/ru/about.json
-        params:
-          file_format: nested_json
-          locale_id: b95687de8a8770be40aa49fb69c5ca23
+      params:
+        file_format: nested_json
+        locale_id: b95687de8a8770be40aa49fb69c5ca23
