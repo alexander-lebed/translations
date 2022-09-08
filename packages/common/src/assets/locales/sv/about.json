@@ -1,2 +1,10 @@
 {
+  "title": "Om oss",
+
+  "work-at-wincher": {
+    "quote": "Jag pratar dagligen med mitt team från mitt hemmakontor. Jag spenderar mindre tid på pendling och har mer tid på viktiga saker i livet som min familj",
+    "item1": {
+      "heading": "Arbeta var som helst"
+    }
+  }
 }

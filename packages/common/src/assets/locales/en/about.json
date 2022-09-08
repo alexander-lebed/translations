@@ -1,21 +1,10 @@
 {
   "title": "About us",
-  "jumbo-heading": "Our product is a reflection of our\nteam & vision",
-  "jumbo-subheading": "We’re a small yet dedicated team who’s worked together for years to build a tool we’re truly passionate about. We’d like to tell you a bit more about us.",
 
   "work-at-wincher": {
-    "preheading": "What it’s like to",
-    "heading": "Work at Wincher",
     "quote": "I talk to my team on a daily basis from my home office. I spend less time commuting and have more time over for important things in life, like my family",
     "item1": {
-      "heading": "Work from anywhere",
-      "subheading": "We’re based in the tech capital of Sweden,\nbut that doesn’t mean you have to be.",
-      "text": "That’s how Wincher was built. No need to spend hours commuting. Work from home, in a co-working space of your choice or join the HQ in Stockholm."
-    },
-    "item2": {
-      "heading": "No need to love mornings",
-      "subheading": "Together with your team you can freely plan your working hours.",
-      "text": "No micro-management at Wincher. You plan your weeks together with your team and work during the hours of the day you feel the most alert."
+      "heading": "Work from anywhere"
     }
   }
 }
