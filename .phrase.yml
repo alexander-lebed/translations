@@ -6,9 +6,11 @@ phrase:
     - file: packages/common/src/assets/locales/en/about.json
       params:
         file_format: json
+        locale_id: a3816dbcc503951a36157b1c035897a3
         update_translations: true
   pull:
     targets:
     - file: packages/common/src/assets/locales/sv/about.json
       params:
         file_format: json
+        locale_id: c9358b73f53d11c54803daeaac1674ae
