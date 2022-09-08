@@ -8,7 +8,6 @@ phrase:
       params:
         file_format: nested_json
         locale_id: f60c4dc2fb780836934bfb500c391c63
-        update_translations: true
   pull:
     targets:
     - file: packages/common/src/assets/locales/sv/about.json
