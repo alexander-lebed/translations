@@ -1,14 +1,19 @@
 phrase:
   access_token: 0f65f474ec3065b92798f39fc361715d7015e163b65a61249deb8eaa317f6458
   project_id: 98f8a65a99043ae1a408ab5b54e462ef
+  file_format: i18next
   push:
     sources:
-    - file: packages/common/src/assets/locales/en/about.json
+    - file: packages/common/src/assets/locales/en/<tag>.json
       params:
-        file_format: nested_json
-        update_translations: true
+        locale_id: dc9b2d6a51593783e13bfa79b18d33b1
   pull:
     targets:
-    - file: packages/common/src/assets/locales/sv/about.json
+    # about
+    - file: packages/common/src/assets/locales/<locale_name>/about.json
       params:
-        file_format: nested_json
+        tags: about
+    # account
+    - file: packages/common/src/assets/locales/<locale_name>/account.json
+      params:
+        tags: account
