@@ -5,10 +5,10 @@ phrase:
     sources:
     - file: packages/common/src/assets/locales/en/about.json
       params:
-        file_format: nested_json
+        file_format: json
         update_translations: true
   pull:
     targets:
     - file: packages/common/src/assets/locales/sv/about.json
       params:
-        file_format: nested_json
+        file_format: json
