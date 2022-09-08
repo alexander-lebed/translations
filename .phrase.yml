@@ -1,12 +1,12 @@
 phrase:
   access_token: 0f65f474ec3065b92798f39fc361715d7015e163b65a61249deb8eaa317f6458
   project_id: 98f8a65a99043ae1a408ab5b54e462ef
-  file_format: nested_json
+  file_format: i18next
   push:
     sources:
     - file: packages/common/src/assets/locales/en/<tag>.json
       params:
-        locale_id: ed23519b2403fe8d69c53c3d786d3332
+        locale_id: 9ef9b92ea806d381ba2f2a2a17d1c6cd
   pull:
     targets:
     # about
