@@ -7,15 +7,15 @@ phrase:
     - file: packages/common/src/assets/locales/en/about.json
       params:
         file_format: nested_json
-        locale_id: a3816dbcc503951a36157b1c035897a3
+        locale_id: f60c4dc2fb780836934bfb500c391c63
         update_translations: true
   pull:
     targets:
     - file: packages/common/src/assets/locales/sv/about.json
       params:
         file_format: nested_json
-        locale_id: 0513981fd258083b3fcde6a2bd5d7c9a
+        locale_id: cefca43961123ce372d0692bada58592
     - file: packages/common/src/assets/locales/ru/about.json
         params:
           file_format: nested_json
-          locale_id: e080a869bc511a31a1e674a15e718b1b
+          locale_id: b95687de8a8770be40aa49fb69c5ca23
