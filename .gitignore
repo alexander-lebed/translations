@@ -1,0 +1,11 @@
+# Package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors / meta
+.idea
+.vscode
+.DS_Store
+
+

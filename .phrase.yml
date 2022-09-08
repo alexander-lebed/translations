@@ -1,0 +1,14 @@
+phrase:
+  access_token: 0f65f474ec3065b92798f39fc361715d7015e163b65a61249deb8eaa317f6458
+  project_id: 98f8a65a99043ae1a408ab5b54e462ef
+  push:
+    sources:
+    - file: packages/common/src/assets/locales/en/about.json
+      params:
+        file_format: nested_json
+        update_translations: true
+  pull:
+    targets:
+    - file: packages/common/src/assets/locales/sv/about.json
+      params:
+        file_format: nested_json
