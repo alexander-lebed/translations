@@ -7,7 +7,7 @@ phrase:
     - file: packages/common/src/assets/locales/en/<tag>.json
       params:
         locale_id: dc9b2d6a51593783e13bfa79b18d33b1
-        tags: about, account
+        update_translations: true
   pull:
     targets:
     # about
