@@ -1,10 +1,9 @@
 {
-  "title": "About us",
-
+  "title": "Account title",
   "work-at-wincher": {
-    "quote": "I talk to my team on a daily basis from my home office. I spend less time commuting and have more time over for important things in life, like my family",
     "item1": {
       "heading": "Work from anywhere"
-    }
+    },
+    "quote": "I talk to my team on a daily basis from my home office. I spend less time commuting and have more time over for important things in life, like my family"
   }
 }
