@@ -1,11 +1,10 @@
 {
-  "title": "Account title",
-  "subtitle": "Account subtitle",
-
   "profile": {
-    "your-profile-information": "Your profile information",
     "services": {
       "facebook-subtitle": "Connect & log in"
-    }
-  }
+    },
+    "your-profile-information": "Your profile information"
+  },
+  "subtitle": "Account subtitle",
+  "title": "About us"
 }

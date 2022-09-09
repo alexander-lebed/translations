@@ -1,1 +1,10 @@
-{}
+{
+  "profile": {
+    "services": {
+      "facebook-subtitle": "Anslut och logga in"
+    },
+    "your-profile-information": "Din profilinformation"
+  },
+  "subtitle": "Konto underrubrik",
+  "title": "Om oss"
+}
