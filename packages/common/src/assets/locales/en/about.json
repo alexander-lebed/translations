@@ -1,0 +1,50 @@
+{
+  "title": "About us",
+  "jumbo-heading": "Our product is a reflection of our\nteam & vision",
+  "jumbo-subheading": "We’re a small yet dedicated team who’s worked together for years to build a tool we’re truly passionate about. We’d like to tell you a bit more about us.",
+
+  "team": {
+    "heading": "Get to know us",
+    "subheading": "We’re the nerdy passionate bunch behind the tools you love.",
+    "this-could-be-you": "This could\nbe you",
+    "join-team": "Join the team",
+    "join-team-short": "Join"
+  },
+
+  "philosophy": {
+    "heading": "Our philosophy",
+    "subheading": "At the heart of Wincher lies our common interest: SEO and everything around it.",
+    "text": "We want to educate people in SEO by creating tools that are so simple that even your grandmother could use them."
+  },
+
+  "founder": {
+    "preheading": "A quick word from our Founder",
+    "quote": "Great SEO isn’t achieved by intuition – let our data be your guide"
+  },
+
+  "work-at-wincher": {
+    "preheading": "What it’s like to",
+    "heading": "Work at Wincher",
+    "quote": "I talk to my team on a daily basis from my home office. I spend less time commuting and have more time over for important things in life, like my family",
+    "item1": {
+      "heading": "Work from anywhere",
+      "subheading": "We’re based in the tech capital of Sweden,\nbut that doesn’t mean you have to be.",
+      "text": "That’s how Wincher was built. No need to spend hours commuting. Work from home, in a co-working space of your choice or join the HQ in Stockholm."
+    },
+    "item2": {
+      "heading": "No need to love mornings",
+      "subheading": "Together with your team you can freely plan your working hours.",
+      "text": "No micro-management at Wincher. You plan your weeks together with your team and work during the hours of the day you feel the most alert."
+    },
+    "item3": {
+      "heading": "Health first, always",
+      "subheading": "Our company is only as happy and healthy as our team members are.",
+      "text": "That’s why we always provide health insurance and other health benefits to all of our employees."
+    }
+  },
+
+  "made-in-sweden": {
+    "subheading": "Wincher was founded in Stockholm all the way back in 2013.",
+    "text": "As Scandinavians, minimalism and functionalism is in our DNA and we believe this is the key behind our success. Because of this, we've always strived to keep our products as simple to use as possible and will always continue to do so. "
+  }
+}
