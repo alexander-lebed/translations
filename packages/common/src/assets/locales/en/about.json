@@ -1,5 +1,4 @@
 {
-    "test": "Test",
     "founder": {
         "preheading": "A quick word from our Founder",
         "quote": "Great SEO isn’t achieved by intuition – let our data be your guide"
@@ -22,6 +21,7 @@
         "subheading": "We’re the nerdy passionate bunch behind the tools you love.",
         "this-could-be-you": "This could\\nbe you"
     },
+    "test": "Test",
     "title": "About us",
     "work-at-wincher": {
         "heading": "Work at Wincher",
