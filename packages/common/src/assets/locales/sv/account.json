@@ -1,140 +1,155 @@
 {
-    "billing": {
-        "details": {
-            "edit-title": "Ändra faktureringsuppgifter",
-            "title": "Faktureringsuppgifter"
-        },
-        "history": {
-            "card-update": "Kortuppdatering",
-            "credit-note": "Kreditnota",
-            "no-results": "Du har ingen faktureringshistorik.",
-            "paid": "Betald",
-            "pending": "Väntande",
-            "refunded": "Återbetalad",
-            "title": "Faktureringshistorik",
-            "vat": "Moms: {{amount}}"
-        },
-        "payment": {
-            "error-toast": "Något gick fel när du lade till din betalningsmetod. Var vänlig kontakta support.",
-            "expired": "Gick ut {{- date}}",
-            "expires": "Går ut {{- date}}",
-            "make-primary": "Gör till primär",
-            "next-billing": "Nästa fakturering <1>{{date}}<\/1>",
-            "no-results": "Du har inga sparade betalmetoder.",
-            "payment-card": "Betalkort",
-            "paypal": "PayPal",
-            "primary": "Primär",
-            "remove-payment-method-confirmation": "Är du säker på att du vill ta bort den här betalningsmetoden från ditt konto?",
-            "remove-title": "Ta bort betalningsmetod",
-            "success-toast": "Den nya betalningsmetoden lades till korrekt.",
-            "title": "Betalningsmetoder"
-        },
-        "plan": {
-            "cancel-subscription": "Avbryt prenumeration",
-            "features-title": "Dina funktioner",
-            "get-more": "Få mer",
-            "plan-title": "Din nuvarande plan",
-            "unlock": "Unlock",
-            "update-plan": "Uppdatera plan",
-            "yearly-discount": "Två gratis månader (årlig plan)"
-        },
-        "reactivate-account": {
-            "button": "Återaktivera mitt konto",
-            "heading": "Din data finns här om du behöver den.",
-            "subheading": "Du kan när som helst återaktivera ditt konto och få full tillgång till all din tidigare data."
-        },
-        "upgrade": {
-            "no-subscription": "Tyvärr, du har ingen prenumeration"
-        }
-    },
-    "notifications": {
-        "advanced-notifications": "Notiser per webbplats",
-        "billing": "Betalningar",
-        "billing-description": "Få kopior av kvitton och fakturor till din e-post.",
-        "news-and-updates": "Nyheter och uppdateringar",
-        "news-and-updates-description": "Få meddelanden om våra senaste nyheter och uppdateringar.",
-        "ranking-successes": "Rankingframgångar",
-        "ranking-successes-description": "Bli meddelad när din webbplats ökar i position.",
-        "ranking-summary": "Rankingsammanfattning",
-        "ranking-summary-description": "Få en veckosammanfattning för dina stjärnmärkta och andra viktiga sökord.",
-        "ranking-warnings": "Rankingvarningar",
-        "ranking-warnings-description": "Bli meddelad när din webbplats tappar sin position till en konkurrent.",
-        "search-domain": "Sök webbplats"
-    },
-    "personal-access-tokens": {
-        "create": {
-            "expiry-date-placeholder": "Utgångsdatum",
-            "heading": "Skapa API-nyckel",
-            "name-placeholder": "Namn",
-            "success-callout": "Din API-nyckel skapades korrekt: <1>{{token}}<\/1>\\nSe till att spara den då du inte kommer att kunna komma åt  den igen!"
-        },
-        "description": "Personliga API-nycklar kan användas för att komma åt <1>Winchers REST API<\/1> programmatiskt. Du bör generera en nyckel för varje applikation som behöver tillgång till det. En nyckel ger full tillgång till att agera som din användare och bör skyddas på samma sätt som ditt lösenord.",
-        "table": {
-            "created": "Skapad",
-            "expires": "Går ut",
-            "revoke": "Återkalla",
-            "revoke-confirm": "Är du säker på att du vill återkalla denna API-nyckel?",
-            "title": "Aktiva personliga API-nycklar"
-        }
-    },
-    "profile": {
-        "connect-to": "Anslut till {{name}}",
-        "connected-status": "Du är ansluten",
-        "current-password": "Nuvarande lösenord",
-        "disconnect": "Slå av",
-        "disconnect-confirm-text": "Är du säker på att du vill slå av {{name}}? Du kommer inte längre att kunna använda denna integration.",
-        "disconnect-confirm-title": "Slå av {{name}}",
-        "email-changed": "Ett e-postmeddelande har skickats till dig med en länk för att verifiera din nya e-postadress",
-        "repeat-new-password": "Upprepa det nya lösenordet",
-        "services": {
-            "data-studio-subtitle": "Anslut till dina data",
-            "facebook-description": "Låter dig logga in via ditt Facebook-konto – ett mindre lösenord att hålla reda på.",
-            "facebook-subtitle": "Anslut & logga in",
-            "google-description": "Låter dig logga in via ditt Google-konto – ett mindre lösenord att hålla reda på.",
-            "google-subtitle": "Anslut & logga in",
-            "search-console-description": "Importera sökord och annan data direkt från Google Search Console till Wincher.",
-            "search-console-subtitle": "Anslut & importera sökord"
-        },
-        "your-password": "Ditt lösenord",
-        "your-profile-information": "Din profilinformation",
-        "your-services": "Dina anslutna tjänster"
-    },
-    "subscription-expired-callout": "Din prenumeration har gått ut och du har inte längre tillgång till dina data. <2>Klicka här för att återaktivera.<\/2>",
-    "users": {
-        "access-warning": "Ingen tillgång",
-        "active": "Aktiv för",
-        "add-user": "Bjud in användare",
-        "admin": "Administratör",
-        "admin-description": "Har full behörighet till alla projekt, kan bjuda in och hantera projektmedlemmar samt externa användare.",
-        "delete-confirmation": "Är du säker på att du vill ta bort den här användaren från ditt konto?",
-        "edit-user": "Redigera användare",
-        "editing-username": "Redigerar {{name}}",
-        "external": "Extern användare",
-        "external-description": "Har enbart behörighet att se data i tilldelade projekt.",
-        "filter-placeholder": "Filtrera på namn eller e-post",
-        "member": "Projektmedlem",
-        "member-description": "Har behörighet att se och hantera webbplatser i tilldelade projekt.",
-        "modal": {
-            "access-level": "Behörighetsnivå",
-            "email": "E-post",
-            "header": "Bjud in en användare",
-            "invitation-sent": "Inbjudan har skickats.",
-            "select-projects": "Välj ett eller flera projekt...",
-            "subheader": "Den inbjudna får ett e-postmeddelande med instruktioner.",
-            "submit-btn": "Bjud in användare"
-        },
-        "owner": "Ägare",
-        "owner-description": "Har full behörighet till alla projekt, kan bjuda in och hantera alla sorters användare samt hantera kontots betalningar.",
-        "pending": "Väntande Inbjudan",
-        "permissions-warning-description": "Den här användaren har tilldelade projekt men du har inte tillgång till den funktionen. Du behöver uppgradera ditt konto eller ändra användarens roll.",
-        "projects-warning-description": "Den här användaren har inga tilldelade projekt vilket innebär att de inte kommer att kunna se någon data. Du bör antingen tilldela ett projekt eller ändra användarens roll.",
-        "remove-user": "Ta bort från kontot",
-        "resend-invitation": "Skicka inbjudan via e-post igen",
-        "roles-warning-description": "Denna användare kan för närvarande inte använda Wincher då ditt konto inte längre har tillgång till användarens roll. Du behöver uppgradera ditt konto eller ändra användarens roll.",
-        "starting-page": {
-            "btn-text": "Bjud in min första användare",
-            "heading": "Känner du dig ensam?\\nLåt oss ändra på det",
-            "subheading": "Visste du att du kan lägga till och ta bort användare till ditt konto samt tilldela åtkomst till specifika projekt?"
-        }
+  "subscription-expired-callout": "Din prenumeration har gått ut och du har inte längre tillgång till dina data. <2>Klicka här för att återaktivera.</2>",
+
+  "profile": {
+    "your-profile-information": "Din profilinformation",
+    "email-changed": "Ett e-postmeddelande har skickats till dig med en länk för att verifiera din nya e-postadress",
+
+    "your-password": "Ditt lösenord",
+    "current-password": "Nuvarande lösenord",
+    "repeat-new-password": "Upprepa det nya lösenordet",
+
+    "your-services": "Dina anslutna tjänster",
+    "connected-status": "Du är ansluten",
+    "connect-to": "Anslut till {{name}}",
+    "disconnect": "Slå av",
+    "disconnect-confirm-title": "Slå av {{name}}",
+    "disconnect-confirm-text": "Är du säker på att du vill slå av {{name}}? Du kommer inte längre att kunna använda denna integration.",
+    "services": {
+      "facebook-subtitle": "Anslut & logga in",
+      "facebook-description": "Låter dig logga in via ditt Facebook-konto – ett mindre lösenord att hålla reda på.",
+      "google-subtitle": "Anslut & logga in",
+      "google-description": "Låter dig logga in via ditt Google-konto – ett mindre lösenord att hålla reda på.",
+      "search-console-subtitle": "Anslut & importera sökord",
+      "search-console-description": "Importera sökord och annan data direkt från Google Search Console till Wincher.",
+      "data-studio-subtitle": "Anslut till dina data"
     }
+  },
+  "notifications": {
+    "ranking-successes": "Rankingframgångar",
+    "ranking-successes-description": "Bli meddelad när din webbplats ökar i position.",
+    "ranking-summary": "Rankingsammanfattning",
+    "ranking-summary-description": "Få en veckosammanfattning för dina stjärnmärkta och andra viktiga sökord.",
+    "ranking-warnings": "Rankingvarningar",
+    "ranking-warnings-description": "Bli meddelad när din webbplats tappar sin position till en konkurrent.",
+    "billing": "Betalningar",
+    "billing-description": "Få kopior av kvitton och fakturor till din e-post.",
+    "news-and-updates": "Nyheter och uppdateringar",
+    "news-and-updates-description": "Få meddelanden om våra senaste nyheter och uppdateringar.",
+    "advanced-notifications": "Notiser per webbplats",
+    "search-domain": "Sök webbplats"
+  },
+  "users": {
+    "add-user": "Bjud in användare",
+    "edit-user": "Redigera användare",
+    "editing-username": "Redigerar {{name}}",
+    "remove-user": "Ta bort från kontot",
+    "resend-invitation": "Skicka inbjudan via e-post igen",
+    "filter-placeholder": "Filtrera på namn eller e-post",
+    "pending": "Väntande Inbjudan",
+    "active": "Aktiv för",
+
+    "owner": "Ägare",
+    "owner-description": "Har full behörighet till alla projekt, kan bjuda in och hantera alla sorters användare samt hantera kontots betalningar.",
+    "admin": "Administratör",
+    "admin-description": "Har full behörighet till alla projekt, kan bjuda in och hantera projektmedlemmar samt externa användare.",
+    "member": "Projektmedlem",
+    "member-description": "Har behörighet att se och hantera webbplatser i tilldelade projekt.",
+    "external": "Extern användare",
+    "external-description": "Har enbart behörighet att se data i tilldelade projekt.",
+
+    "starting-page": {
+      "heading": "Känner du dig ensam?\nLåt oss ändra på det",
+      "subheading": "Visste du att du kan lägga till och ta bort användare till ditt konto samt tilldela åtkomst till specifika projekt?",
+      "btn-text": "Bjud in min första användare"
+    },
+
+    "delete-confirmation": "Är du säker på att du vill ta bort den här användaren från ditt konto?",
+
+    "modal": {
+      "header": "Bjud in en användare",
+      "subheader": "Den inbjudna får ett e-postmeddelande med instruktioner.",
+      "email": "E-post",
+      "access-level": "Behörighetsnivå",
+      "select-projects": "Välj ett eller flera projekt...",
+      "submit-btn": "Bjud in användare",
+      "invitation-sent": "Inbjudan har skickats."
+    },
+
+    "access-warning": "Ingen tillgång",
+    "roles-warning-description": "Denna användare kan för närvarande inte använda Wincher då ditt konto inte längre har tillgång till användarens roll. Du behöver uppgradera ditt konto eller ändra användarens roll.",
+    "projects-warning-description": "Den här användaren har inga tilldelade projekt vilket innebär att de inte kommer att kunna se någon data. Du bör antingen tilldela ett projekt eller ändra användarens roll.",
+    "permissions-warning-description": "Den här användaren har tilldelade projekt men du har inte tillgång till den funktionen. Du behöver uppgradera ditt konto eller ändra användarens roll."
+  },
+
+  "billing": {
+    "plan": {
+      "plan-title": "Din nuvarande plan",
+      "update-plan": "Uppdatera plan",
+      "features-title": "Dina funktioner",
+      "yearly-discount": "Två gratis månader (årlig plan)",
+      "get-more": "Få mer",
+      "unlock": "Unlock",
+      "cancel-subscription": "Avbryt prenumeration"
+    },
+
+    "payment": {
+      "title": "Betalningsmetoder",
+      "expires": "Går ut {{- date}}",
+      "expired": "Gick ut {{- date}}",
+      "next-billing": "Nästa fakturering <1>{{date}}</1>",
+      "primary": "Primär",
+      "make-primary": "Gör till primär",
+      "payment-card": "Betalkort",
+      "paypal": "PayPal",
+      "remove-title": "Ta bort betalningsmetod",
+      "remove-payment-method-confirmation": "Är du säker på att du vill ta bort den här betalningsmetoden från ditt konto?",
+      "error-toast": "Något gick fel när du lade till din betalningsmetod. Var vänlig kontakta support.",
+      "success-toast": "Den nya betalningsmetoden lades till korrekt.",
+      "no-results": "Du har inga sparade betalmetoder."
+    },
+
+    "history": {
+      "title": "Faktureringshistorik",
+      "pending": "Väntande",
+      "paid": "Betald",
+      "refunded": "Återbetalad",
+      "credit-note": "Kreditnota",
+      "card-update": "Kortuppdatering",
+      "vat": "Moms: {{amount}}",
+      "no-results": "Du har ingen faktureringshistorik."
+    },
+
+    "details": {
+      "title": "Faktureringsuppgifter",
+      "edit-title": "Ändra faktureringsuppgifter"
+    },
+
+    "upgrade": {
+      "no-subscription": "Tyvärr, du har ingen prenumeration"
+    },
+
+    "reactivate-account": {
+      "heading": "Din data finns här om du behöver den.",
+      "subheading": "Du kan när som helst återaktivera ditt konto och få full tillgång till all din tidigare data.",
+      "button": "Återaktivera mitt konto"
+    }
+  },
+
+  "personal-access-tokens": {
+    "description": "Personliga API-nycklar kan användas för att komma åt <1>Winchers REST API</1> programmatiskt. Du bör generera en nyckel för varje applikation som behöver tillgång till det. En nyckel ger full tillgång till att agera som din användare och bör skyddas på samma sätt som ditt lösenord.",
+    "create": {
+      "heading": "Skapa API-nyckel",
+      "name-placeholder": "Namn",
+      "expiry-date-placeholder": "Utgångsdatum",
+      "success-callout": "Din API-nyckel skapades korrekt: <1>{{token}}</1>\nSe till att spara den då du inte kommer att kunna komma åt  den igen!"
+    },
+    "table": {
+      "title": "Aktiva personliga API-nycklar",
+      "created": "Skapad",
+      "expires": "Går ut",
+      "revoke": "Återkalla",
+      "revoke-confirm": "Är du säker på att du vill återkalla denna API-nyckel?"
+    }
+  }
 }
