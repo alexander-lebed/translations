@@ -1,155 +1,140 @@
 {
-  "subscription-expired-callout": "Your subscription has expired and you no longer have access to your data. <2>Click here to re-activate it.</2>",
-
-  "profile": {
-    "your-profile-information": "Your profile information",
-    "email-changed": "An e-mail has been sent to you with a link to verify your new e-mail address",
-
-    "your-password": "Your password",
-    "current-password": "Current password",
-    "repeat-new-password": "Repeat new password",
-
-    "your-services": "Your connected services",
-    "connected-status": "You’re connected",
-    "connect-to": "Connect to {{name}}",
-    "disconnect": "Disconnect",
-    "disconnect-confirm-title": "Disconnecting {{name}}",
-    "disconnect-confirm-text": "Are you sure that you want to disconnect {{name}}? You will no longer be able to use this integration.",
-    "services": {
-      "facebook-subtitle": "Connect & log in",
-      "facebook-description": "Allows you to log in through your Facebook account, one less password to keep track of.",
-      "google-subtitle": "Connect & log in",
-      "google-description": "Allows you to log in through your Google account, one less password to keep track of.",
-      "search-console-subtitle": "Connect & import keywords",
-      "search-console-description": "Import keywords and other data directly from Google Search Console to Wincher.",
-      "data-studio-subtitle": "Connect to your data"
+    "billing": {
+        "details": {
+            "edit-title": "Edit billing details",
+            "title": "Billing details"
+        },
+        "history": {
+            "card-update": "Card update",
+            "credit-note": "Credit note",
+            "no-results": "You do not have any billing history.",
+            "paid": "Paid",
+            "pending": "Pending",
+            "refunded": "Refunded",
+            "title": "Billing history",
+            "vat": "VAT: {{amount}}"
+        },
+        "payment": {
+            "error-toast": "Something went wrong when adding your payment method, please contact support.",
+            "expired": "Expired {{- date}}",
+            "expires": "Expires {{- date}}",
+            "make-primary": "Make primary",
+            "next-billing": "Next billing <1>{{date}}<\/1>",
+            "no-results": "You do not have any saved payment methods.",
+            "payment-card": "Payment Card",
+            "paypal": "PayPal",
+            "primary": "Primary",
+            "remove-payment-method-confirmation": "Are you sure you want to remove this payment method from your account?",
+            "remove-title": "Remove payment method",
+            "success-toast": "Your payment method was added successfully.",
+            "title": "Payment methods"
+        },
+        "plan": {
+            "cancel-subscription": "Cancel subscription",
+            "features-title": "Your features",
+            "get-more": "Get more",
+            "plan-title": "Your current plan",
+            "unlock": "Unlock",
+            "update-plan": "Update plan",
+            "yearly-discount": "Two free months (yearly plan)"
+        },
+        "reactivate-account": {
+            "button": "Reactivate my account",
+            "heading": "Your data is still here\\nif you need it.",
+            "subheading": "You can reactivate your account at any time and get full access to all your previous data."
+        },
+        "upgrade": {
+            "no-subscription": "Sorry, you don’t have a subscription"
+        }
+    },
+    "notifications": {
+        "advanced-notifications": "Notifications per website",
+        "billing": "Billing",
+        "billing-description": "Get copies of receipts and invoices to your e-mail.",
+        "news-and-updates": "News and updates",
+        "news-and-updates-description": "Get notified about our latests news and updates.",
+        "ranking-successes": "Ranking successes",
+        "ranking-successes-description": "Get notified when your website increases in position.",
+        "ranking-summary": "Ranking summary",
+        "ranking-summary-description": "Get a weekly summary for your starred and other important keywords.",
+        "ranking-warnings": "Ranking warnings",
+        "ranking-warnings-description": "Get notified when your website loses its position to a competitor.",
+        "search-domain": "Search website"
+    },
+    "personal-access-tokens": {
+        "create": {
+            "expiry-date-placeholder": "Expiry date",
+            "heading": "Create personal access token",
+            "name-placeholder": "Name",
+            "success-callout": "Successfully created token: <1>{{token}}<\/1>\\nMake sure you save it since you won‘t be able to access it again!"
+        },
+        "description": "Personal access tokens are used to access the <1>Wincher REST API<\/1> programatically. You should generate a personal access token for each application that needs to access to the API. A personal access token grants access to act on your behalf and should be guarded as highly as your password.",
+        "table": {
+            "created": "Created",
+            "expires": "Expires",
+            "revoke": "Revoke",
+            "revoke-confirm": "Are you sure that you want to revoke this personal access token?",
+            "title": "Active personal access tokens"
+        }
+    },
+    "profile": {
+        "connect-to": "Connect to {{name}}",
+        "connected-status": "You’re connected",
+        "current-password": "Current password",
+        "disconnect": "Disconnect",
+        "disconnect-confirm-text": "Are you sure that you want to disconnect {{name}}? You will no longer be able to use this integration.",
+        "disconnect-confirm-title": "Disconnecting {{name}}",
+        "email-changed": "An e-mail has been sent to you with a link to verify your new e-mail address",
+        "repeat-new-password": "Repeat new password",
+        "services": {
+            "data-studio-subtitle": "Connect to your data",
+            "facebook-description": "Allows you to log in through your Facebook account, one less password to keep track of.",
+            "facebook-subtitle": "Connect & log in",
+            "google-description": "Allows you to log in through your Google account, one less password to keep track of.",
+            "google-subtitle": "Connect & log in",
+            "search-console-description": "Import keywords and other data directly from Google Search Console to Wincher.",
+            "search-console-subtitle": "Connect & import keywords"
+        },
+        "your-password": "Your password",
+        "your-profile-information": "Your profile information",
+        "your-services": "Your connected services"
+    },
+    "subscription-expired-callout": "Your subscription has expired and you no longer have access to your data. <2>Click here to re-activate it.<\/2>",
+    "users": {
+        "access-warning": "No access",
+        "active": "Active",
+        "add-user": "Invite user",
+        "admin": "Administrator",
+        "admin-description": "Has full access to all projects and data and can invite and manage project members and external users.",
+        "delete-confirmation": "Are you sure you want to remove this user from your account?",
+        "edit-user": "Edit user",
+        "editing-username": "Editing {{name}}",
+        "external": "External",
+        "external-description": "Has access to view websites in assigned projects.",
+        "filter-placeholder": "Filter by name or email",
+        "member": "Project Member",
+        "member-description": "Has access to view and manage websites in assigned projects.",
+        "modal": {
+            "access-level": "Access level",
+            "email": "Invitees email",
+            "header": "Invite a user",
+            "invitation-sent": "Invitation has been sent.",
+            "select-projects": "Select one or more projects...",
+            "subheader": "The invitee will receive an e-mail with instructions.",
+            "submit-btn": "Invite user"
+        },
+        "owner": "Owner",
+        "owner-description": "Has full access to all projects, can invite and manage all types of users and can manage the account‘s plan and billing.",
+        "pending": "Pending Invite",
+        "permissions-warning-description": "This user has assigned projects but you have don‘t have access to that feature. You need to upgrade your account or promote the user.",
+        "projects-warning-description": "This user has no assigned projects which means they won't be able to view any data. You should either assign a project or promote the user.",
+        "remove-user": "Remove from account",
+        "resend-invitation": "Resend invitation e-mail",
+        "roles-warning-description": "This user is not currently able to use Wincher since your account no longer has access to the user‘s role. You need to upgrade your account or promote the user.",
+        "starting-page": {
+            "btn-text": "Invite my first user",
+            "heading": "Feeling lonely?\\nLet’s change that",
+            "subheading": "Did you know you can add users to your account and assign them to specific projects?"
+        }
     }
-  },
-  "notifications": {
-    "ranking-successes": "Ranking successes",
-    "ranking-successes-description": "Get notified when your website increases in position.",
-    "ranking-summary": "Ranking summary",
-    "ranking-summary-description": "Get a weekly summary for your starred and other important keywords.",
-    "ranking-warnings": "Ranking warnings",
-    "ranking-warnings-description": "Get notified when your website loses its position to a competitor.",
-    "billing": "Billing",
-    "billing-description": "Get copies of receipts and invoices to your e-mail.",
-    "news-and-updates": "News and updates",
-    "news-and-updates-description": "Get notified about our latests news and updates.",
-    "advanced-notifications": "Notifications per website",
-    "search-domain": "Search website"
-  },
-  "users": {
-    "add-user": "Invite user",
-    "edit-user": "Edit user",
-    "editing-username": "Editing {{name}}",
-    "remove-user": "Remove from account",
-    "resend-invitation": "Resend invitation e-mail",
-    "filter-placeholder": "Filter by name or email",
-    "pending": "Pending Invite",
-    "active": "Active",
-
-    "owner": "Owner",
-    "owner-description": "Has full access to all projects, can invite and manage all types of users and can manage the account‘s plan and billing.",
-    "admin": "Administrator",
-    "admin-description": "Has full access to all projects and data and can invite and manage project members and external users.",
-    "member": "Project Member",
-    "member-description": "Has access to view and manage websites in assigned projects.",
-    "external": "External",
-    "external-description": "Has access to view websites in assigned projects.",
-
-    "starting-page": {
-      "heading": "Feeling lonely?\nLet’s change that",
-      "subheading": "Did you know you can add users to your account and assign them to specific projects?",
-      "btn-text": "Invite my first user"
-    },
-
-    "delete-confirmation": "Are you sure you want to remove this user from your account?",
-
-    "modal": {
-      "header": "Invite a user",
-      "subheader": "The invitee will receive an e-mail with instructions.",
-      "email": "Invitees email",
-      "access-level": "Access level",
-      "select-projects": "Select one or more projects...",
-      "submit-btn": "Invite user",
-      "invitation-sent": "Invitation has been sent."
-    },
-
-    "access-warning": "No access",
-    "roles-warning-description": "This user is not currently able to use Wincher since your account no longer has access to the user‘s role. You need to upgrade your account or promote the user.",
-    "projects-warning-description": "This user has no assigned projects which means they won't be able to view any data. You should either assign a project or promote the user.",
-    "permissions-warning-description": "This user has assigned projects but you have don‘t have access to that feature. You need to upgrade your account or promote the user."
-  },
-
-  "billing": {
-    "plan": {
-      "plan-title": "Your current plan",
-      "update-plan": "Update plan",
-      "features-title": "Your features",
-      "yearly-discount": "Two free months (yearly plan)",
-      "get-more": "Get more",
-      "unlock": "Unlock",
-      "cancel-subscription": "Cancel subscription"
-    },
-
-    "payment": {
-      "title": "Payment methods",
-      "expires": "Expires {{- date}}",
-      "expired": "Expired {{- date}}",
-      "next-billing": "Next billing <1>{{date}}</1>",
-      "primary": "Primary",
-      "make-primary": "Make primary",
-      "payment-card": "Payment Card",
-      "paypal": "PayPal",
-      "remove-title": "Remove payment method",
-      "remove-payment-method-confirmation": "Are you sure you want to remove this payment method from your account?",
-      "error-toast": "Something went wrong when adding your payment method, please contact support.",
-      "success-toast": "Your payment method was added successfully.",
-      "no-results": "You do not have any saved payment methods."
-    },
-
-    "history": {
-      "title": "Billing history",
-      "pending": "Pending",
-      "paid": "Paid",
-      "refunded": "Refunded",
-      "credit-note": "Credit note",
-      "card-update": "Card update",
-      "vat": "VAT: {{amount}}",
-      "no-results": "You do not have any billing history."
-    },
-
-    "details": {
-      "title": "Billing details",
-      "edit-title": "Edit billing details"
-    },
-
-    "upgrade": {
-      "no-subscription": "Sorry, you don’t have a subscription"
-    },
-
-    "reactivate-account": {
-      "heading": "Your data is still here\nif you need it.",
-      "subheading": "You can reactivate your account at any time and get full access to all your previous data.",
-      "button": "Reactivate my account"
-    }
-  },
-
-  "personal-access-tokens": {
-    "description": "Personal access tokens are used to access the <1>Wincher REST API</1> programatically. You should generate a personal access token for each application that needs to access to the API. A personal access token grants access to act on your behalf and should be guarded as highly as your password.",
-    "create": {
-      "heading": "Create personal access token",
-      "name-placeholder": "Name",
-      "expiry-date-placeholder": "Expiry date",
-      "success-callout": "Successfully created token: <1>{{token}}</1>\nMake sure you save it since you won‘t be able to access it again!"
-    },
-    "table": {
-      "title": "Active personal access tokens",
-      "created": "Created",
-      "expires": "Expires",
-      "revoke": "Revoke",
-      "revoke-confirm": "Are you sure that you want to revoke this personal access token?"
-    }
-  }
 }
